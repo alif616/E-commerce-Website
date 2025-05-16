@@ -466,13 +466,17 @@
     flex-wrap: wrap;
     background-image: url(img/newsletter.png);
     background-position: 20% 30%;
-    background-color: #000000;
+    background-color: #ffffff;
     
 }
 
 #newsletter .news p{
     color: white;
 }
+#newsletter .news h4{
+    color: white;
+}
+
 
 #newsletter .news span{
     color: rgb(0, 255, 42);
