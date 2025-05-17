@@ -6,6 +6,40 @@
     box-sizing: border-box;
     font-family: 'Spartan', sans-serif;
 }
+@media (max-width: 768px) {
+  /* For tablets and mobile phones */
+
+  body {
+    font-size: 16px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  /* Example: change layout for product cards */
+  .product-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+/* Bad: */
+.container {
+  width: 600px;
+}
+
+/* Good: */
+.container {
+  width: 100%;
+  max-width: 600px;
+}
+
 
 /*header start*/
 .header{
